@@ -2,7 +2,7 @@
   <div id="app">
 	<input class="myinput" type="text" v-model="todo" placeholder="请输入待办事项"  v-on:keyup.enter="addTodo">
     <div id="nav">
-      <router-link to="/">全部1111111</router-link> |
+      <router-link to="/">全部22222</router-link> |
       <router-link to="/about">待完成</router-link>|
 	  <router-link to="/comp">已完成</router-link>
     </div>
