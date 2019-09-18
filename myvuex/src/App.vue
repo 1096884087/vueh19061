@@ -2,9 +2,9 @@
   <div id="app">
 	<input class="myinput" type="text" v-model="todo" placeholder="请输入待办事项"  v-on:keyup.enter="addTodo">
     <div id="nav">
-      <router-link to="/">all</router-link> |
-      <router-link to="/about">active</router-link>|
-	  <router-link to="/comp">completed</router-link>
+      <router-link to="/">全部</router-link> |
+      <router-link to="/about">待完成</router-link>|
+	  <router-link to="/comp">已完成</router-link>
     </div>
     <router-view/>
 	<p>待办事项还有{{num}}项</p>
